@@ -30,7 +30,7 @@ p{
 *{
  color: blue;
 }
-but if we add
+/* but if we add */
 p{
  color: red;
 }
