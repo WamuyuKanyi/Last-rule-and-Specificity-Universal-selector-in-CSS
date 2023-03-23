@@ -15,3 +15,11 @@ color: yellowgreen;
 
 /* SPECIFICITY */
 /* CSS OVERRIDES THE LAST RULE AND APPLIES THE SPECIFICITY MEASUREMENT */
+.red{
+ color: red;
+}
+
+p{
+ color: blue;
+}
+/* END */
