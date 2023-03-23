@@ -3,7 +3,7 @@
 /* not all properties will be inherited */
 
 /* LAST RULE AND SPECIFITY */
-/* CSS applies last rule */
+/* CSS applies last rule regardless of what you have inbetween */
 p{
  color: blue;
 }
@@ -11,3 +11,7 @@ p{
 p{
 color: yellowgreen;
 }
+/* END */
+
+/* SPECIFICITY */
+/* CSS OVERRIDES THE LAST RULE AND APPLIES THE SPECIFICITY MEASUREMENT */
