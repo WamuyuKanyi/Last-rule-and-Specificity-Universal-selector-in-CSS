@@ -1,0 +1,13 @@
+/* INHERITANCE */
+
+/* not all properties will be inherited */
+
+/* LAST RULE AND SPECIFITY */
+/* CSS applies last rule */
+p{
+ color: blue;
+}
+
+p{
+color: yellowgreen;
+}
