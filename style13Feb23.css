@@ -23,3 +23,18 @@ p{
  color: blue;
 }
 /* END */
+
+UNIVERSAL SELECTOR
+/* UNIVERSAL SELECTOR - This is the least powerful selector(ie least amount of specificity. It selects all the elements. We use an asterix * */
+in this case, everything will be blue as it selects all the elements.
+*{
+ color: blue;
+}
+but if we add
+p{
+ color: red;
+}
+*{
+ color: blue;
+}
+the universal selector will be overriden and the paragraph will be red
